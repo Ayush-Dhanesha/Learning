@@ -1,0 +1,15 @@
+solana-keygen new
+solana config set --url https://api.devnet.solana.com
+solana airdrop 1
+solana balance
+spl-token create-token
+spl-token supply AQoKYV7tYpTrFZN6P5oUufbQKAUr9mNYGe1TTJC9wajM
+spl-token create-account ChNkv9iW5pZJ1YAsNswC2CrdMUkFJBUbRWinjdLvKpXA
+spl-token mint  ChNkv9iW5pZJ1YAsNswC2CrdMUkFJBUbRWinjdLvKpXA 100
+
+
+
+
+
+
+
