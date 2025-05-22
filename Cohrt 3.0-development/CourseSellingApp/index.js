@@ -13,7 +13,7 @@ app.use("/api/v1/admin", adminRouter);
 
 async function main() {
   try {
-    await mongoose.connect("mongodb+srv://adlonelyking:Ayush123@cluster0.yogfj.mongodb.net/courseSellingApp");
+    await mongoose.connect("mongodb+srv://00000000@cluster0.yogfj.mongodb.net/courseSellingApp");
     console.log("connected");
     app.listen(3000, () => {
       console.log("Server is running on port 3000");
